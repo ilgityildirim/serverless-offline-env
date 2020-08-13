@@ -1,0 +1,35 @@
+{
+  "name": "serverless-offline-env",
+  "version": "0.2.0",
+  "description": "Use environment variables that are defined in .env or in your serverless.yml within Serverless Offline plugin",
+  "author": "Ilgıt Yıldırım <ilgit.yildirim@triplebits.com>",
+  "license": "MIT",
+  "keywords": [
+    "Serverless",
+    "Offline",
+    "env",
+    "dotenv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilgityildirim/serverless-offline-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilgityildirim/serverless-offline-env/issues"
+  },
+  "main": "src/index.js",
+  "peerDependencies": {
+    "serverless-offline": "3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "homepage": "https://github.com/ilgityildirim/serverless-offline-env#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "lodash": "^4.17.20"
+  }
+}
